@@ -4,15 +4,16 @@
 
 % Variables ------------------------------------------------------------------%
 
-\title{Resume}
-\author{Kyle Gieselman}
-\date{2022}
+%\title{Resume}
+%\author{Kyle Gieselman}
+%\date{2022}
 
 
 
 % Configuration --------------------------------------------------------------%
 
 \documentclass[10pt, letterpaper]{article}
+\usepackage[margin=0.5in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{indentfirst}
 \usepackage{enumitem}
@@ -23,15 +24,18 @@
 
 \begin{document}
 
-\textbf{Kyle Gieselman} \hfill 2022
+%{\fontsize{24}{24}\selectfont Kyle Gieselman} \hfill 2022 \\
+\noindent {\bf{\LARGE Kyle Gieselman}} \hfill 2022 \\
+gieselman.kyle@gmail.com \hfill (317)260-1544 \\
+
 
 
 %-- SECTION: Summary ---------------------------------------------------------%
 \section*{Summary} \vspace{-2ex} \hrule
 \vspace{1ex}
 
-Electrical engineer with a diverse background in the field. Experience in schematic
-capture, board layout, software (c++/c\#), and embedded firmware.
+Electrical Engineer with 5 years of professional experience in embedded firmware
+(c), software (c++/c\#), schematic capture, and board layout experience.
 
 
 
@@ -39,47 +43,55 @@ capture, board layout, software (c++/c\#), and embedded firmware.
 \section*{Experience} \vspace{-2ex} \hrule
 \vspace{1ex}
 
-\subsection*{Raytheon}
+\subsection*{Vertex}
 
-\textbf{Electrical Engineer II} \hfill 2021-2022 \\
+\textbf{Electrical Engineer II} \hfill December 2021 - Present \\
 \vspace{-4ex}
 \begin{itemize}[noitemsep]
-    \item Developed driver and application code for the power sub-system
-    \item Refactored inefficient code
-    \item Helped move team to use Git and Azure Devops
-    \item Power supply layout for data link POD using Mentor Graphics
-    \item Rigid-Flex board layout for Maritime Strike Tomahawk (MST) power condition unit
-    \item Used Visual Basic Script (Vbs) to automate model based documentation for Menotr Graphics
-    \item Traveled to diagnose communication issue in multi-board system using schematics and previously setup testing apparatus.
+    \item Common WSI Processor Module \\
+    Initiated software design for a Common WSI Processor Module (CWPM). Planned design for testing communication interfaces and common integrated circuits using establish Standard Commands for Programmable Instruments (SCPI) protocol. Trained new hire in embedded systems and common protocols. Standardized interfaces to promote Agile methodologies and parallel work. Delegated tasks that were thoroughly planned. Reduced risk through use of unit testing with the CppUTest framework.
 \end{itemize}
 
-\textbf{Electrical Engineer I} \hfill 2019-2021 \\
+
+\subsection*{Raytheon}
+
+\textbf{Electrical Engineer II} \hfill July 2021 - December 2021 \\
+\vspace{-4ex}
+\begin{itemize}[noitemsep]
+    \item Maritime Strike Tomahawk Software \\
+    Developed low-level drivers and application code using the c language for the power sub-system that was comprised of three separate boards. Spearheaded a migration from SVN to Git to handle the team's version control. This migration also allowed the team to move to an Azure DevOps server with a loose Agile process. Enhanced team's workflow through establishing functional test procedures. Decreased risk by formalizing module design.
+    \item AWW-13 Datalink POD Hardware \\
+    Expedited schematic design and implemented the printed circuit board layout using Mentor Graphics.
+    \item Model Based Design Automation \\
+    Developed and delivered scripts for automating printed circuit board documentation in Mentor Graphics. These scripts allowed for documentation inside the design files, moving the company toward model-based design.
+    \item David's Sling \\
+    Analyzed guidance units due to unexpected errors in production testing. Identified multiple issues that could have been the root cause.
+    \item Maritime Strike Tomahawk Hardware \\
+    Designed the printed circuit board (PCB) for the Power Conditioning Board using Mentor Graphics. This board consisted of multiple rigid sections connect through flexible PCB inner layers.
+\end{itemize}
+
+\textbf{Electrical Engineer I} \hfill May 2019 - July 2021 \\
 \vspace{-4ex}
 \begin{itemize}
     \item Documented "green" Gulfstream aircraft using schematics and in-field verification.
 \end{itemize}
 
 
-\textbf{Software Engineer I} \hfill 2016-2018 \\
+\textbf{Software Engineer I} \hfill May 2017 - May 2019 \\
 \vspace{-4ex}
 \begin{itemize}[noitemsep]
-    \item Developed code using c++ and c\#
-    \item Designed upgrade to include Helmet Mounted Display (HMD)
-    \item Implemented functional test procedures
-    \item Accomplish \emph{Six Sigma} certification with project to increase effectiveness by removing complexity of updating correct configuration files.
+    \item HH-60 Personal Search and Rescue (PRSA) \\
+    Developed c++ and c\# code for the Smart Multi-Function Color Displays (SMFCD). Designed updates to incorporate Helmet Mounted Displays (HMD). Attained Raytheon \emph{Six Sigma} certification through reducing man hours and risk when updates were required to configuration files.
+    Developed code using c++ and c\#
 \end{itemize}
 
 
-
-%-- SECTION: Tools -----------------------------------------------------------%
-\section*{Skills} \vspace{-2ex} \hrule
-\vspace{1ex}
-
-\subsection*{Tools}
-Code Composer Studio | Mentor Graphics | Altium \\
-
-\subsection*{Protocols}
-UART | I2C | CAN | SPI
+\textbf{Software Engineering Intern} \hfill May 2016 - August 2016 \\
+\vspace{-4ex}
+\begin{itemize}[noitemsep]
+    \item HH-60 Personel Serach and Rescue (PRSA) \\
+    Documented functional testing for the Smart Multi-Function Color Displays (SMFCD). Modified c\# code to update the GUI for increased number of menu items.
+\end{itemize}
 
 
 
@@ -89,6 +101,7 @@ UART | I2C | CAN | SPI
 
 \textbf{Valparaiso University} \hfill August 2013 - May 2017 \\
 \indent Bachelor of Science in Computer Engineering \\
+\indent \indent Graduated Summa Cum Laude \\
 \indent \indent Member of \emph{Tau Beta Pi} Honor Society
 
 
